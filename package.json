@@ -1,7 +1,7 @@
 {
   "name": "yuser-back",
   "description": "Backend part for the Yuser's assignment",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "homepage": "",
   "private": true,
   "main": "src",
@@ -20,7 +20,7 @@
     "config": "config/"
   },
   "engines": {
-    "node": "^18.0.0",
+    "node": "^16.0.0",
     "npm": ">= 3.0.0"
   },
   "scripts": {
