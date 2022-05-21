@@ -24,11 +24,10 @@
     "npm": ">= 3.0.0"
   },
   "scripts": {
-    "test": "npm run lint && npm run mocha",
-    "lint": "standard",
+    "test": "npm run mocha",
     "dev": "nodemon src/",
     "start": "node src/",
-    "mocha": "mocha test/ --recursive --exit"
+    "mocha": "test mocha"
   },
   "standard": {
     "env": [

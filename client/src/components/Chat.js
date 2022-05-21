@@ -1,6 +1,6 @@
 import React, {useEffect, useRef} from 'react';
 import moment from 'moment';
-import client from './feathers';
+import client from '../api/feathers';
 
 import Button from '@mui/material/Button';
 

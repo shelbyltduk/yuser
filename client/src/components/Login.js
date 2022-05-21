@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import client from './feathers';
+import client from '../api/feathers';
 import Button from "@mui/material/Button";
 
 const Login = () => {
